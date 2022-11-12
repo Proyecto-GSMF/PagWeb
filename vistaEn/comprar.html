@@ -1,0 +1,220 @@
+<html>
+
+<head>
+
+  <title> BRUM </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="../assets/brum_imgs/FAVICON.png">
+  <link rel="stylesheet" href="../lib/custom_styles/comprar.css">
+  <link rel="stylesheet" href="../lib/custom_styles/styleind.css">
+  <link rel="stylesheet" href="../lib/css/bootstrap.min.css">
+
+</head>
+
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="../assets/brum_imgs/logo.png" class="logo" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">BRUM</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+              <div id="registrado" class="registrado">
+
+
+
+              </div>
+              <div id="reg2" class="">
+
+
+                <li class="nav-item navhov">
+                  <a class="nav-link" href="login.html">Login</a>
+                 </li>
+                 <li class="nav-item navhov">
+                   <a class="nav-link" href="registration.html">Sign Up</a>
+                    </li>
+
+
+              </div>
+
+              <hr>
+
+          
+              <li class="nav-item navhov">
+                <a class="nav-link" href="index.html">START</a>
+              </li>
+
+              <li class="nav-item navhov">
+                <a class="nav-link" href="../vista/index.html"><img style="width: 64px; height: 32px;"  src="../assets/brum_imgs/esp.png" alt="eng"></a>
+              </li>
+
+              <li class="nav-item navhov">
+                <a class="nav-link" href="comprar.html">GET PREMIUM!</a>
+              </li>
+              <li class="nav-item navhov">
+                <a class="nav-link" href="allevents.html">All events</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <div class="inicio">
+
+
+    <br>
+    <br>
+    <br>
+    <h1 style="color: white; text-align: center;">Buy premium for the page below!</h1>
+    <h3 style="color: white; text-align: center;">Premium is a perk of the app that allows you to remove the ads to enjoy
+      of a more comfortable experience on the page for just:</h3><h3 style="color: lightgreen; text-align: center;">20$ USD</h3>
+    
+  </div>
+
+  <div id="mostrar" class="mostrar">
+
+    
+  </div>
+
+  <div class="principal">
+    <div class="tarjeta">
+      <div class="cc__main__container">
+        <div class="form__container">
+          <h1 class="header">TarjePass</h1>
+
+          <div class="card__main">
+            <div class="Front_card">
+              <div class="top_card">
+                <span class="visa">BRUM-Card</span>
+                <div class="logo">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <div class="middle_card">
+                <span class="chip"></span>
+                <div class="card_number">0000 0000 0000 0000</div>
+              </div>
+              <div class="bottom_card">
+                <div class="card_info">
+                  <div class="card_holder_name">Your name</div>
+                </div>
+                <div class="card_info">
+                  <div class="card_holder_info">
+                    <span class="expire_month">MM</span>
+                    <span>/</span>
+                    <span class="expire_year">YY</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="back_card">
+              <div class="top_card">
+                <span class="black_strip"></span>
+                <div class="cvc_strip">
+                  <span class="cvc_number">000</span>
+                </div>
+              </div>
+              <div class="bottom_card">
+                <div class="flex">
+                  <span class="sticker"></span>
+                  <div class="logo1">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <form  method="post">
+            <div class="inputBox">
+              <span>Name of the owner</span>
+              <input type="text" maxlength="30" class="card-holder-input" placeholder="John Doe" required/>
+            </div>
+            <div class="inputBox">
+              <span>Card numbrer</span>
+              <input type="text" maxlength="16" class="card-number-input" placeholder="0000 0000 0000 0000" required/>
+            </div>
+
+            <div class="multi__box">
+              <div class="inputBox">
+                <span>exp. (MM)</span>
+                <input type="text" maxlength="2" class="card-month-input" placeholder="00" required/>
+              </div>
+              <div class="inputBox">
+                <span>exp. (YY)</span>
+                <input type="text" maxlength="2" class="card-year-input" placeholder="00" required/>
+              </div>
+              <div class="inputBox">
+                <span>CVC</span>
+                <input type="text" maxlength="3" class="card-cvc-input" placeholder="000" required/>
+              </div>
+            </div>
+               
+
+              <hr>
+              <br>
+              <br>
+              <br>
+         
+              <input type="button" class="btn btn-primary" name="formC" id="formC" value="Realizar compra">
+             
+
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="sticky-footer">
+      <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+        <div class="container text-center">
+          <small>Copyright &copy; BRUM</small>
+        </div>
+      </footer>
+    </div>
+
+  </div>
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="../lib/js/bootstrap.min.js"></script>
+  <script src="../modelo/session.js"></script>
+  <script src="../modelo/sessionCom.js"></script>
+
+  <script src="../lib/customjs/compraf.js"></script>
+
+
+
+</body>
+
+
+
+</html>
